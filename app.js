@@ -13,7 +13,6 @@ function demo(){
     else{
         
         task.innerHTML=`<li> ${input.value}`;
-        count=count+1;
         document.querySelector('ul').append(task);
         task.classList.add("list"); //add css class
         input.value="";
